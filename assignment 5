@@ -1,0 +1,9 @@
+Console.WriteLine("Enter any string");
+String getString = Console.ReadLine();
+
+foreach (var character in getString)
+{
+Console.WriteLine(character);
+}
+
+Console.ReadLine()
